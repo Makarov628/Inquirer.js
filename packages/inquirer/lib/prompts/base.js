@@ -28,7 +28,7 @@ class Prompt {
       filter: val => val,
       when: () => true,
       suffix: '',
-      prefix: chalk.green('?')
+      prefix: chalk.hex('#3B6197')('#')
     });
 
     // Make sure name is present
